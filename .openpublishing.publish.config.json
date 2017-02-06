@@ -39,7 +39,7 @@
     "dependent_repositories": [{
         "path_to_root": "_themes",
         "url": "https://github.com/Microsoft/templates.docs.msft",
-        "branch": "master"
+        "branch": "preview"
     }, {
         "path_to_root": "api_ref",
         "url": "https://github.com/docascode/coreapi.git",
