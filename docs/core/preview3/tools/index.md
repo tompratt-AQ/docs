@@ -4,7 +4,7 @@ description: An overview of what the Command-Line Interface (CLI) is and its mai
 keywords: CLI, CLI tools, .NET, .NET Core
 author: blackdwarf
 ms.author: mairaw
-ms.date: 10/06/2016
+ms.date: 02/21/2016
 ms.topic: article
 ms.prod: .net-core
 ms.technology: dotnet-cli
@@ -34,7 +34,7 @@ The native installers are primarily meant for developer's machines. The CLI is d
 native install mechanism, for instance DEB packages on Ubuntu or MSI bundles on Windows. These installers will install 
 and set up the environment as needed for the user to use the CLI immediately after the install. However, they also 
 require administrative privileges on the machine. You can view the installation instructions on the
-[.NET Core getting started page](https://aka.ms/dotnetcoregs).
+[.NET Core installation guide](https://aka.ms/dotnetcoregs) page.
 
 Install scripts, on the other hand, do not require administrative privileges. However, they will also not install any 
 prerequisites on the machine; you need to install all of the prerequisites manually. The scripts are meant mostly for 
@@ -50,14 +50,29 @@ the [driver](#driver) section.
 ### What commands come in the box?
 The following commands are installed by default:
 
+#### Basic commands:
 * [new](dotnet-new.md)
-* [migrate](dotnet-migrate.md)
 * [restore](dotnet-restore.md)
-* [run](dotnet-run.md)
 * [build](dotnet-build.md)
-* [test](dotnet-test.md)
 * [publish](dotnet-publish.md)
+* [run](dotnet-run.md)
+* [test](dotnet-test.md)
 * [pack](dotnet-pack.md)
+* [migrate](dotnet-migrate.md)
+* [clean](dotnet-clean.md)
+* [sln](dotnet-sln.md)
+
+#### Project modification commands:
+* add
+* remove
+* list
+
+#### Advanced commands:
+* [nuget delete](dotnet-nuget-delete.md)
+* [nuget locals](dotnet-nuget-locals.md)
+* [nuget push](dotnet-nuget-push.md)
+* [msbuild](dotnet-msbuild.md)
+* vstest
 
 There is also a way to import more commands on a per-project basis as well as to add your own commands. This is 
 explained in greater detail in the [extensibility section](#extensibility). 
@@ -69,7 +84,7 @@ The following example utilizes several commands from the CLI standard install to
 restore the dependencies, build the application and then run it. 
 
 ```console
-dotnet new
+dotnet new console
 dotnet restore
 dotnet build --output /stuff
 dotnet /stuff/new.dll
