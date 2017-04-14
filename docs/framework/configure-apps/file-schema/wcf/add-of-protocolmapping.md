@@ -67,5 +67,5 @@ Represents a default protocol mapping between a transport protocol scheme (e.g.,
 ```  
   
 ## See Also  
- <!-- TODO: review code entity reference <xref:System.ServiceModel.Configuration.ProtocolMappingSection>  -->   
- <!-- TODO: review code entity reference <xref:System.ServiceModel.Configuration.ProtocolMappingElement>  -->
+ <xref:System.ServiceModel.Configuration.ProtocolMappingSection>  
+ <xref:System.ServiceModel.Configuration.ProtocolMappingElement>  

@@ -71,7 +71,7 @@ A configuration element that represents an argument associated with an activity 
 ```  
   
 ## See Also  
- <!-- TODO: review code entity reference <xref:System.ServiceModel.Activities.Tracking.Configuration.ArgumentElement>  -->   
- <!-- TODO: review code entity reference <xref:System.Activities.Tracking.ActivityStateQuery>  -->   
+ <xref:System.ServiceModel.Activities.Tracking.Configuration.ArgumentElement>    
+ <xref:System.Activities.Tracking.ActivityStateQuery>     
  [Workflow Tracking and Tracing](../../../../../docs/framework/windows-workflow-foundation/workflow-tracking-and-tracing.md)   
  [Tracking Profiles](../../../../../docs/framework/windows-workflow-foundation/tracking-profiles.md)

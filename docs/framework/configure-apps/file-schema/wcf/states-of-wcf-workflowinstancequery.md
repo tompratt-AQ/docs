@@ -89,8 +89,8 @@ Represents a collection of subscribed states from the tracked workflow instance 
 ```  
   
 ## See Also  
- <!-- TODO: review code entity reference <xref:System.ServiceModel.Activities.Tracking.Configuration.WorkflowInstanceQueryElement>  -->   
- <!-- TODO: review code entity reference <xref:System.ServiceModel.Activities.Tracking.Configuration.StateElementCollection>  -->   
- <!-- TODO: review code entity reference <xref:System.Activities.Tracking.WorkflowInstanceQuery>  -->   
+ <xref:System.ServiceModel.Activities.Tracking.Configuration.WorkflowInstanceQueryElement>    
+ <xref:System.ServiceModel.Activities.Tracking.Configuration.StateElementCollection>    
+ <xref:System.Activities.Tracking.WorkflowInstanceQuery>     
  [Workflow Tracking and Tracing](../../../../../docs/framework/windows-workflow-foundation/workflow-tracking-and-tracing.md)   
  [Tracking Profiles](../../../../../docs/framework/windows-workflow-foundation/tracking-profiles.md)
